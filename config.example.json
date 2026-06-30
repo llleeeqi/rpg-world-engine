@@ -1,0 +1,25 @@
+{
+  "default_provider": "deepseek",
+  "providers": {
+    "deepseek": {
+      "type": "openai_compatible",
+      "base_url": "https://api.deepseek.com",
+      "api_key_env": "DEEPSEEK_API_KEY"
+    }
+  },
+  "models": {
+    "orchestrator": "deepseek-v4-flash",
+    "character": "deepseek-v4-flash",
+    "judge": "deepseek-v4-flash",
+    "writer": "deepseek-v4-flash",
+    "memory": "deepseek-v4-flash"
+  },
+  "retrieval": {
+    "fts_enabled": true,
+    "embedding_enabled": false,
+    "chunk_tokens": 500,
+    "top_k_fts": 20,
+    "top_k_vector": 10
+  }
+}
+

@@ -1,0 +1,12 @@
+services:
+  rpg-world-engine:
+    build: .
+    image: rpg-world-engine:latest
+    ports:
+      - "54925:54925"
+    volumes:
+      - ./data:/data
+    environment:
+      RPG_WORLD_HOST: 0.0.0.0
+      RPG_WORLD_PORT: 54925
+      RPG_WORLD_DATA: /data

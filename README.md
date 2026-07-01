@@ -56,7 +56,7 @@ docker run --rm -p 54925:54925 -v "$PWD/data:/data" rpg-world-engine:latest
 docker compose up --build
 ```
 
-如果我把镜像推到 GHCR，会是这个地址：
+GHCR 镜像已经推上去了，直接拉这个：
 
 ```txt
 ghcr.io/llleeeqi/rpg-world-engine:latest

@@ -25,6 +25,8 @@
 
 我尽量让它轻一点。日常运行不需要 Node 常驻，也不用先装一堆 Python 包。
 
+Windows 下我会在 Release 里放一个 `windows-x64.zip`，那个是解压之后双击 `run.bat` 就能跑的包，Python 也带进去了，存档默认就在包里的 `data/`。
+
 ```bash
 python3 server.py
 ```

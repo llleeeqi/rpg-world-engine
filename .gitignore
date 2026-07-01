@@ -4,6 +4,7 @@ __pycache__/
 
 data/
 config.json
+dist/
 
 .env
 .DS_Store
